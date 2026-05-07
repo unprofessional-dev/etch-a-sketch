@@ -1,0 +1,32 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons{
+  display: flex;
+  gap: 2rem;
+  margin: 2rem;
+}
+
+button {
+ padding: 0.5rem 1rem;
+}
+
+.column {
+  /* border: 1px solid black; */
+  flex-grow: 1;
+  aspect-ratio: 1;
+}
+
+.row {
+  display: flex;
+}
+
+.container {
+  border: 1px solid black;
+  width: 480px;
+  height: 480px;
+}
